@@ -4,11 +4,9 @@ console.log(inputFlavors);
 
 let arrayFlavors = inputFlavors.split(",");
 
+function orderTotal(inputFlavors) {
 
-
-const objFlavors = {
-  
-};
+const objFlavors = {};
 
 for (let i = 0; i<arrayFlavors.length; i++) {
 
@@ -22,4 +20,9 @@ for (let i = 0; i<arrayFlavors.length; i++) {
 
 }
 
-console.log(objFlavors)
+console.table (objFlavors)
+}
+
+orderTotal(inputFlavors);
+
+
